@@ -62,7 +62,7 @@ or integrate the following in your code:
 
 As of 0.4.1 ncclient integrates Juniper's and Cisco's forks, lots of new concepts
 have been introduced that ease management of Juniper and Cisco devices respectively.
-The biggest change is the introduction of device handlers in connection paramms.
+The biggest change is the introduction of device handlers in connection params.
 For example to invoke Juniper's functions annd params one has to re-write the above with ***device_params={'name':'junos'}***:
 
     from ncclient import manager
